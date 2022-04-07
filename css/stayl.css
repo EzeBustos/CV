@@ -1,14 +1,14 @@
-html {  
+html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-  
+
 *,
 *:before,
 *:after {
     box-sizing: inherit;
 }
-  
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
@@ -17,24 +17,24 @@ body {
 img {
     max-width: 100%;
 }
-  
+
 h1 {
     font-size: 4rem;
 }
-  
+
 h2 {
     font-size: 3.2rem;
 }
 
-h3{
+h3 {
     font-size: 2rem;
 }
-  
+
 p {
     font-size: 2rem;
 }
 
-a{
+a {
     text-decoration: none;
     margin-right: 2rem;
     font-weight: 700;
@@ -42,44 +42,50 @@ a{
     transition: font-size .5s ease-out;
 }
 
-a:last-of-type{
+a:last-of-type {
     margin-right: 0;
 }
 
-a:hover{
+a:hover {
     color: rgb(14, 39, 151);
     font-size: 1.8rem;
 }
-  
+
 .contenedor {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
 }
 
+
 /**CABEZA**/
-.encabezado{
+
+.encabezado {
     display: block;
     background-color: #3a6c9f;
     padding: 2rem;
     text-align: center;
 }
-.encabezado img{
+
+.encabezado img {
     border-radius: 50%;
     border: .5rem solid #999fff;
 }
 
+
 /**CUERPO**/
-main{
+
+main {
     background-color: #d4d7f5;
 }
-.contenido-principal{
+
+.contenido-principal {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
 }
 
-.texto{
+.texto {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -87,38 +93,46 @@ main{
     color: #fff;
 }
 
-.texto h1{
+.texto h1 {
     flex-basis: 100%;
 }
 
-dd{
+dd {
     line-height: 2;
 }
 
-.negrita{
+.negrita {
     font-size: 2rem;
     font-weight: 600;
     border-bottom: 2px solid rgb(23, 23, 102);
     margin-bottom: 2rem;
 }
 
-.informacion{
+.informacion {
     margin-bottom: 4rem;
 }
 
-aside{
+aside {
     text-align: center;
 }
+
+.contenedor-from {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1em 2em;
+}
+
 
 /*PIE*/
 
-footer{
+footer {
     background-color: #000;
     text-align: center;
-    
 }
 
-footer p{
+footer p {
     font-size: 1.2rem;
     color: #fff;
     padding: 1rem;
@@ -127,20 +141,21 @@ footer p{
 
 /*Responcive Tables*/
 
-@media (min-width: 768px){
-    .encabezado{
-    display: flex;
-    justify-content: space-evenly;
+@media (min-width: 768px) {
+    .encabezado {
+        display: flex;
+        justify-content: space-evenly;
     }
-
-    .encabezado img{
+    .encabezado img {
         margin-left: 2rem;
     }
 }
 
+
 /*Responcive Monitor*/
 
-@media (min-width: 992px){
-.encabezado img{
-    margin-left: 4rem;
-}}
+@media (min-width: 992px) {
+    .encabezado img {
+        margin-left: 4rem;
+    }
+}
